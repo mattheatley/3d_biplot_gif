@@ -13,7 +13,7 @@ Usage:
 
 -i / --input (required)
 
-A tab-delimited file with the x/y/z coordinates plus (i) unique group id (string), (ii) color (any HTML color code) & (iii) shape (see below) for each datapoint.  
+A tab-delimited file with the x/y/z coordinates plus (i) unique group id for ellipsoids (string), (ii) color (any HTML color code) & (iii) shape (see below) for each datapoint.  
 
 Supported shapes
 
