@@ -8,7 +8,7 @@ Requirements:
 
 Usage:
 
-  Rscript -i /path/to/score_data -a /path/to/arrow_data -l
+  Rscript -i /path/to/score_data -a /path/to/arrow_data -l -o output_name
   
 
 -i / --input (required)
