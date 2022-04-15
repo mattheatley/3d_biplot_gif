@@ -13,7 +13,7 @@ Usage:
 
 -i / --input (required)
 
-A tab-delimited file with the (i) sample name (string) (ii-iv) x/y/z coordinates, (v) unique group id for ellipsoids (string), (vi) color (any HTML color code) & (vii) shape (see below) for each datapoint.  
+A tab-delimited file with data point (i) sample name (string) (ii-iv) x/y/z coordinates, (v) unique group id for ellipsoids (string), (vi) color (any HTML color code) & (vii) shape (see below).  
 
 Supported shapes
 
@@ -33,7 +33,9 @@ SAMPLE	CLUSTER	COLOR	SHAPE	PC1	PC2	PC3
 
 -a / --arrows (optional)
 
-A tab-delimited file with the x/y/z coordinates for tips of loading arrows plus the relevant variable name (string).
+A tab-delimited file with loading arrow (i) loading variable name (string) & (ii-iv) x/y/z coordinates for tips.
+
+N.B. loading arrow lengths are scaled by the script to fill aid visibility.
 
 Example:
 
