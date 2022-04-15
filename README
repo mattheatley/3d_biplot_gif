@@ -1,0 +1,37 @@
+PLOT PCA DATA IN 3D!
+
+Requirements:
+
+  - r
+  - optparse
+  - rgl
+
+Usage:
+
+  Rscript -i /path/to/score_data -a /path/to/arrow_data -l
+  
+
+-i / --input (required)
+
+A tab-delimited file with the x/y/z coordinates plus (i) unique group id (string), (ii) color (any HTML color code) & (iii) shape (see below) for each datapoint.  
+
+Supported shapes
+
+- "CIRCLE"   ( -> SPHERES.     )
+- "SQUARE"   ( -> CUBES        )
+- "TRIANGLE" ( -> TETRAHEDRONS )
+- "DIAMOND"  ( -> OCTAHEDRONS  )
+
+
+-a / --arrows (optional)
+
+A tab-delimited file with the x/y/z coordinates for tips of loading arrows plus the relevant variable name (string).
+
+
+-l / --labels (optional)
+
+Show loading arrow variable names.
+
+-o / --output (optinal)
+
+Specify output name (Default: "output")
