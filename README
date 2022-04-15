@@ -32,6 +32,6 @@ A tab-delimited file with the x/y/z coordinates for tips of loading arrows plus 
 
 Show loading arrow variable names.
 
--o / --output (optinal)
+-o / --output (optional)
 
 Specify output name (Default: "output")
