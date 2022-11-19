@@ -3,12 +3,12 @@ Software to plot your PCA results as a 3D animation.
 Requirements:
 
   - r
-  - r-optparse
-  - r-rgl
-  - r-magick
-  - ImageMagick
+  - r-optparse (CRAN)
+  - r-rgl (CRAN)
+  - r-magick (CRAN)
+  - ImageMagick (conda)
 
-N.B. install r-packages via Rstudio as conda installations did not work. 
+N.B. install r-packages via CRAN (Rstudio) as conda installations were unreliable. 
 
 Usage:
 
