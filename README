@@ -8,7 +8,7 @@ Requirements:
   - r-magick (CRAN)
   - ImageMagick (conda)
 
-N.B. install r-packages via CRAN (Rstudio) as conda installations were unreliable. 
+N.B. see rgl requirements regarding OpenGL. Installed r-packages via CRAN (Rstudio) as conda installations were unreliable. 
 
 Usage:
 
